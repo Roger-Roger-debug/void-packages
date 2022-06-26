@@ -1,0 +1,14 @@
+# Template file for 'betterdiscordctl'
+pkgname=betterdiscordctl
+version=2.0.1
+revision=1
+short_desc="Manager for BetterDiscord on Linux"
+maintainer="Roger Roger <me@rogerrogert.de>"
+license="MIT"
+homepage="https://github.com/bb010g/betterdiscordctl"
+distfiles="https://github.com/bb010g/betterdiscordctl/archive/refs/tags/v${version}.tar.gz"
+checksum=d56eaa43119bfeef96d842fb83ac943418389dd60d1a372a0e5e24e7eb68fecb
+
+do_install() {
+	vbin betterdiscordctl
+}
